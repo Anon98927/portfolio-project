@@ -63,4 +63,8 @@ img {
     h1 {
        font-size: 60px; 
     }
+
+    .hero {
+        padding:50px 20px;
+    }
 }
