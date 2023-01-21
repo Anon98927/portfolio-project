@@ -1,11 +1,11 @@
-:root {--branding-color: #0fafd3;}
+:root {--branding-color: #0fafd3;
+--background-color: #a0e3f2;}
 
-body {background-color: pink;}
 
 h1, h2, h3 {font-family: "Poppins", sans-serif;}
 
 .hero {
-    background: #a0e3f2;
+    background: var(--background-color);
     text-align: center;
     padding: 160px 20px;
 }
@@ -26,9 +26,35 @@ h1, h2, h3 {font-family: "Poppins", sans-serif;}
 
 h1 {font-size: 96px;}
 
+h2 {font-size:64px;}
+
+p {
+font-weight: normal;
+font-size: 16px;
+}
+
 .btn-branding {
     background-color: var(--branding-color);
     color: white;
     border-radius: 4px;
     padding: 10px 10px;
+}
+
+.btn-branding-outline {
+    border-radius: 4px;
+    padding: 10px 10px;
+    color: black;
+    border: 2px solid var(--branding-color); 
+    box-shadow: 5px 5px 5px var(--branding-color)
+}
+
+.port-projects {
+    margin: 20px;
+}
+
+img {
+    border: 5px solid var(--branding-color);
+    padding: 40px;
+    background-color: var(--background-color);
+    border-radius: 5px;
 }
