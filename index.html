@@ -4,25 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles.css">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <title>Document</title>
-    
 </head>
 <body>
-    
-        <img class="bg img-fluid" src="images/abstractImg.jpeg"> 
-    
-
-    <div class="bg-text">
-        <h2>Hi, I am</h2>
+    <div class="hero">
+        <p>Hello, I am</p>
         <h1>Michelle</h1>
-        <p>Front-end developer based in Ohio</p>
+        <h2 class="mb-5">Front-end developer based in Ohio</h2>
+        <div> 
+            <a href="#" class="btn btn-branding">Contact me</a>
+        </div>
     </div>
-
-    <div class="bg-text2">
-        <a href="projects.html">My Work</a>
-        <a href="about.html">Contact me</a>
-    </div>
-    
+    <p class="text-center m-5">My projects</p>
+    <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <img src="images/weatherApp.png" class="img-fluid" width="400px" />
+          </div>
+          <div class="col-md-6">
+            <h3 class="mb-3">Weather project</h3>
+            <p>This is information about the app</p>
+            <a href="https://regal-fudge-9cc6c4.netlify.app" class="btn btn-branding-outline">Check it out</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h3 class="mb-3">Yoga app</h3>
+                <p>This is information about the app</p>
+                <button type="button" class="btn btn-branding-outline p-3">Check it out</button>
+            </div>
+            <div class="col-md-6">
+              <img src="images/yoga.png" class="img-fluid" width="400px" />
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <img src="images/yogurt.png" class="img-fluid" width="400px" />
+          </div>
+          <div class="col-md-6">
+            <h3 class="mb-3">Yogurt app</h3>
+            <p>This is information about the app</p>
+            <button type="button" class="btn btn-branding-outline p-3">Check it out</button>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
