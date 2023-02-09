@@ -69,6 +69,4 @@ img {
     }
 }
 
-#weather-img {position: relative;
-top: 100px;
-background-color: #f4f2fe;}
+.project-imgs {border: 2px solid var(branding-color);}
