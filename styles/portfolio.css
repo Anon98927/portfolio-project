@@ -71,4 +71,6 @@ img {
 
 .project-imgs {border: 1px solid var(branding-color);}
 
-#weather-img {padding-bottom: 500px;}
+#weather-img {padding-bottom: 700px;
+position: relative;
+top: 25%;}
