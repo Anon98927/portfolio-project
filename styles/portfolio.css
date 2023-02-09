@@ -69,4 +69,6 @@ img {
     }
 }
 
-.project-imgs {border: 2px solid var(branding-color);}
+.project-imgs {border: 1px solid var(branding-color);}
+
+#weather-img {padding-bottom: 20px;}
