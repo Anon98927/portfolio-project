@@ -69,4 +69,6 @@ img {
     }
 }
 
-.email-link {text-align: center;}
+#weather-img {position: relative;
+top: 100px;
+background: #f4f2fe;}
