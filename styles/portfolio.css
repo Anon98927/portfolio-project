@@ -71,3 +71,6 @@ img {
 
 .project-imgs {border: 1px solid var(branding-color);}
 
+.email-link {display: block;
+margin: auto;
+text-align: center;}
